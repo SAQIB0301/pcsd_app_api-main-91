@@ -41,7 +41,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ghcr.io/${{ github.repository }}/fastapi-app:latest
+          tags: ghcr.io/saqib0301/pcsd-app-api-main-91/fastapi-app:latest  # Make sure this tag is lowercase
 
       - name: Log in to GitHub Container Registry
         uses: docker/login-action@v2
